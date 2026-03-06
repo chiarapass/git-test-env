@@ -6,16 +6,14 @@
 const APP_VERSION = '1.0.0';
 
 // Add this new function to src/app.js
-function greetUser(name) {​
+function greetUser(name) {
 
-return `Hello, ${name}! Welcome to Git CI/CD!`;​
+return `Hello, ${name}! Welcome to Git CI/CD!`;
 
-}​
+}
 
-​
 
-module.exports = { greetUser };​
-
+module.exports = { greetUser };
 
 /**
  * Initialize the application
